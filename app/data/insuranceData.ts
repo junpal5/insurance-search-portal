@@ -4,6 +4,7 @@ import { samsungFireMyfit } from './insurances/samsung-fire-myfit';
 import { samsungFireSilson } from './insurances/samsung-fire-silson';
 import { hanwhaCancer } from './insurances/hanwha-cancer';
 import { heungkukInsurance } from './insurances/heungkuk-insurance';
+import { samsungFireDriver } from './insurances/samsung-fire-driver';
 
 // ============================================================
 // AIA 건강+ 암보험 (갱신형) 2형 (일반심사형)
@@ -353,7 +354,7 @@ export const familyData: FamilyMember[] = [
     id: 'mom',
     name: '엄마',
     relationship: '어머니',
-    insurances: [aiaHealthCancerInsurance, samsungLifeHealth, samsungFireMyfit, samsungFireSilson, hanwhaCancer, heungkukInsurance],
+    insurances: [aiaHealthCancerInsurance, samsungLifeHealth, samsungFireMyfit, samsungFireSilson, hanwhaCancer, heungkukInsurance, samsungFireDriver],
   },
   {
     id: 'dad',
