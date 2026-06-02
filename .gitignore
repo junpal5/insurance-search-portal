@@ -40,5 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# GitHub Actions (workflow scope required to push)
-.github/
+# PDF source files (data already extracted to TypeScript)
+*.pdf
